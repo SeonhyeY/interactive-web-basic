@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 300vh;
+  background-color: lightblue;
+  /* cursor: none; */
+}
+
+.mouse {
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.mouse img {
+  width: 100px;
+  height: 100px;
+}
